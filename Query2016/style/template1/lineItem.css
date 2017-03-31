@@ -1,0 +1,222 @@
+
+
+table{
+border-collapse:collapse;
+height: 100%;
+width:100%;
+border-bottom: 2px solid navy;
+table-layout: fixed;
+overflow: auto;
+}
+
+th{
+padding-left:5px;
+margin:0;
+color: navy;
+border-top: 2px solid navy;
+border-bottom: 1px solid navy;
+background-color: white;
+vertical-align:top;
+text-align:left;
+font: bold 10pt Arial, Helvetica, sans-serif
+}
+
+.bottomR{
+vertical-align:bottom;
+}
+
+
+td{
+margin:0;
+padding-left:8px;
+vertical-align:top;
+font:9pt Arial, Helvetica, sans-serif
+height
+text-overflow:ellipsis;
+border:none;
+}
+
+.title{		
+font: 9pt Arial, Helvetica, sans-serif
+}
+
+.data{
+padding: 0px;
+font: 9pt Arial, Helvetica, sans-serif
+}	
+
+.tHead
+{
+height:10px;
+}
+
+.vbCrLf
+{
+padding-top:0px;
+width:550px;
+margin-left:10px;
+}
+
+.PRl
+{
+padding-left:15px;
+text-align:left;
+}
+.container
+{
+width: 900px;
+
+padding-left:10px;
+}
+.lgContainer{
+width: 900px;
+}
+
+.container1
+{
+margin-top: 10px;
+margin-left: 11px;
+width: 1000px;
+padding-left:10px;
+}
+.clin
+{
+width: 43px;
+}
+
+
+.SAPr
+{
+width: 60px;
+}
+
+.SAPnum{
+width: 80px;
+}
+.SAPclin
+{
+width:43px;
+}
+
+
+.rc
+{
+width: 43px;
+}
+
+
+.SAPchObj
+{
+width: 60px;
+}
+
+
+.appn
+{
+width:80px;
+}
+
+
+.description
+{
+width: 160px;
+text-align: center;
+}
+
+
+.totalCost
+{
+width: 75px;
+}
+
+.totalFund
+{
+width: 75px;
+}
+
+.clinType
+{
+width:40px;
+}
+ .docNo{
+ width: 120px;
+ }
+.fullname{
+width:100px;
+}
+.status{
+width: 70px;
+}
+.reqDt{
+width: 70px;
+}
+
+.clin2
+{
+width:40px;
+}
+
+.acrn
+{
+width:70px;
+}
+
+.fst
+{
+width:220px;
+}
+
+.cc
+{
+width: 100px;
+}
+
+.cin
+{
+width: 100px;
+}
+
+.funds
+{
+width: 150;
+}
+
+.wkExp
+{
+width: 200px;
+}
+
+.clinRw{
+text-align:center;
+}
+
+.return{
+text-decoration:none;
+font:bold 9pt Arial, Helvetica, sans-serif
+}
+
+.listItems td a{
+text-decoration:none;
+}
+
+.formField{
+	height: 27px;
+	width	: 850px;
+	background-color: ;
+	color: navy;
+	float: left;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+
+	}
+
+.navy{
+
+	color: navy;
+	max-width: 850px;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+}
+.colorRed{
+	color: red;
+	max-width: 850px;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,97 @@
+
+.wrapper{
+  margin: 0px;
+  background-image:url('img/background2.jpg');
+  width:100%;
+  height:100%;
+  position: ablsolute;
+  opacity:0.5;
+        }
+
+
+.field{
+border:1px white;
+text-align: center;
+color:white;
+margin-top:50px;
+margin-left: auto;
+margin-right:auto;
+width:100%;
+min-height: 650px;
+}
+
+.menubar{
+border: 1px solid black ;
+height: 30px;
+width: 100%;
+max-width:1024px;
+background-image:url('img/menubar.jpg');
+}
+
+.table{
+background-color:#D6E0EB;
+margin-left: auto;
+margin-right:auto;
+border: 3px outset #7094B8;
+min-width:488px;
+max-width: 75%;
+overflow: auto;
+}
+a:link {color: white;}      /* unvisited link */
+a:visited {color: white;}  /* visited link */
+a:hover {color:#00FF00;}  /* mouse over link */
+a:active {color:#FFA319;}  /* selected link */ 
+
+.header{
+margin-right: auto;
+width: 100%;
+height: 100px;
+background-image:url('img/footer.jpg');
+
+}
+.hboxl{
+height: 98px;
+width:260px;
+background-image:url('img/navair.png');
+float:left;
+}
+.hboxr{
+margin-top:10px;
+margin-right:15px;
+padding-top:5px;
+height:85px;
+width: 270px;
+background-image:url('img/prprint.png');
+background-repeat: no-repeat;
+float: right;
+}
+.navair{
+height: 79px;
+width: 401;
+background-image: url("img/navairlogo.jpg");
+float: left;
+}
+
+.prprint{
+height: 79px;
+width:300;
+background-image: url("img/prp.jpg");
+float: right;
+}
+
+.hboxl{
+height: 98px;
+width:260px;
+background-image:url('img/navair.png');
+float:left;
+}
+.hboxr{
+margin-top:10px;
+margin-right:15px;
+padding-top:5px;
+height:85px;
+width: 270px;
+background-image:url('img/prprint.png');
+background-repeat: no-repeat;
+float: right;
+}

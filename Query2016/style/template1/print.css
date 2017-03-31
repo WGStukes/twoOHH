@@ -1,0 +1,20 @@
+@media print
+{
+.header, .menubar, .button, .button:hover, .footer,.hboxl, .hboxr
+	{
+	display:none !important;
+	}
+
+.table{page-break-after: always;
+	height: 893px;
+	width: 99%;
+	margin:0px;
+	}
+
+ @page 
+    {
+        size: auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+
+}

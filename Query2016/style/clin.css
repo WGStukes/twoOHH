@@ -1,0 +1,35 @@
+.fundData{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 40px;
+float: left;
+box-shadow:5px 5px 3px #888888;
+}
+
+.fundData table{
+	width: 350px;
+	border: 1px solid grey
+}
+
+.fundData table th{
+	width: 220px;
+	text-align: right;
+}
+
+.fundData table tr{
+	background-color: #E6E6E6;
+	border-bottom: 1px solid grey;
+}
+
+#list{
+	box-shadow:5px 5px 3px #888888;
+	width: 90%;
+	border: 1px solid grey;
+	margin:0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#list table{
+	width: 100%;
+}

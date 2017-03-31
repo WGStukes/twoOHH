@@ -1,0 +1,803 @@
+/*	
+	This Document Contains the Main css for PR Print 	
+	view.css
+	Jeremy McClellan
+	New Directions Technologies
+	9/3/2014
+*/
+
+
+
+@media screen{
+html, body{
+margin: 0;
+padding: 0;
+background-image:url(img/steel.jpg) ;
+}
+
+
+.shorten{
+width:85%;
+}
+/* --------------- Fonts for Headings within TD fields -------- */
+.head1{
+padding-left: 2px;
+font: bold 15pt  Arial, Helvetica, sans-serif
+}
+
+
+.head2{
+padding-left: 3px;
+font: bold 8pt Arial, Helvetica, sans-serif
+}
+
+
+
+.head3{
+padding-left:5px;
+margin:0;
+vertical-align:top;
+text-align:left;
+font: bold 12pt Arial, Helvetica, sans-serif
+}
+
+
+
+.head4{
+margin:0;
+padding-left:8px;
+vertical-align:top;
+font:          7pt Arial, Helvetica, sans-serif
+height
+text-overflow:ellipsis;
+border:none;
+}
+
+a:link {color: navy;}      /* unvisited link */
+a:visited {color:#2E64FE;}  /* visited link */
+a:hover {color:#00FF00;}  /* mouse over link */
+a:active {color:#2E64FE;}  /* selected link */ 
+/* ---------Wrapper Container----------- */
+
+.wrapper
+{
+	margin		: 0px;
+	border		: none;
+	height		: 100%;
+	min-height: 1000px;
+	width		: 100%;
+	padding		: 0px;
+}
+
+.container{
+border: 1px solid red;
+height: 100%;
+width: 99%;
+min-width: 850px;
+}
+
+
+/* -----Header container----- */
+.header
+{
+margin-top:100px;
+width: 100%;
+min-width: 850px;
+}
+
+
+/* ----PR Print Title----- */
+.textl
+{
+	color		: navy;
+	font-size	: 50px;
+	font-weight	: bold;
+	font-family	: arial,gadget,sans-serif;
+	z-index		: 5;
+	margin-top: 40px;
+	margin-left: 280px;
+	margin-bottom: 40px;
+
+}
+
+/* ----Standard Procurement System----- */
+.captchl
+	{
+	
+	font-size	:18px;
+	color		:white;
+	z-index		:10;
+	font-weight	:bold;
+	font-family	:arial,gadget,sans-serif;
+	margin-left: 375px;
+	margin-top: -50px;
+	margin-bottom: 40px;
+	
+	}
+
+
+/* ----Database Connection Message----- */
+.captchr
+	{
+	float: right;
+	font-size	: 12px;
+	color		: navy;
+	font-weight	: bold;
+	font-style	: italic;
+	z-index		: 10;
+	font-family	: arial,gadget,sans-serif;	
+	margin-right: 10px;
+	line-height: 27px;
+	vertical-align:  middle;
+
+	}
+
+	
+
+/* ----Menu Bar to contain navigation links -----*/
+.menubar
+	{
+	height		: 27px;
+	width: 100%;
+	min-width: 600px;
+	background-color: white;
+	color: navy;
+	font-family: bold arial,gadget,sans-serif;
+	border-top	: 3px solid navy;
+	border-bottom 	: 1px solid navy;
+	margin-left	: 2px;
+	margin-right	: 2px;
+	position:fixed;
+	}
+	
+	
+	
+/* ----Navigation Bar----- */
+#navbar
+	{
+	height		: 100%;
+	position:fixed;
+	z-index		: 2;
+	margin-left	: 0px;	
+
+	}
+	
+	
+#navbar li 
+	{
+	list-style	: none;
+	margin-left: 12px;
+	float		: left;
+	position	: relative;
+	font-style	: italic;
+	}
+
+#navbar li a 
+	{
+	display		: block;
+	color		: navy;
+	text-decoration	: none;
+	font-family	: arial,gadget,sans-serif;
+	font-size	: 15px;
+	font-weight	: bold;
+	text-align	: center;
+	line-height	: 25px;
+	vertical-align	: middle;
+	position	: relative;
+	}
+
+/* ----subnav menu----*/
+
+#navbar li ul
+	{
+	display		:none;/*hide the subnav menu*/
+	background-color:navy;	
+	}
+
+
+/* ----style the hover----- */
+#navbar li:hover
+	{ 
+	border		: 1px inset white ;
+	background-color: #F2F2F2;
+	}
+	
+
+#navbar li a:hover{color:#2E64FE;}
+	
+#navbar li:hover ul 
+	{
+	display		: block;
+	margin		: 0;
+	}
+
+#navbar li:hover li 
+	{
+	margin-top	: 0;
+	float		: left;
+	width		: 100%;
+	}
+
+#navbar li:hover li a 
+	{
+	font-size: 12px;
+	text-align:left;
+	}
+	
+	
+#navbar li a:hover 
+	{
+	}
+	
+	/* -----Form Container PR_Print.asp ---- */	
+.field
+	{
+	text-align: center;
+	color:navy;
+	
+	width:100%;
+	min-height: 650px;
+
+	}
+.button{
+	border: 1px solid pink;
+	width: 40px;
+}
+
+
+
+.formField{
+	height: 27px;
+	width	: 850px;
+	background-color: ;
+	color: navy;
+	float: left;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+
+	}
+
+
+
+.table
+	{
+	border: 1px solid black;
+	margin-bottom:10px;
+	margin-left: 60px;
+	height: 960px;
+	width: 744px;
+	resize:none;
+	background: white;
+	}
+.table table{table-layout: fixed;}
+
+/*---PAGE 1---------table Data fields-------------------*/
+
+.tcontainer{
+border:1px solid red;
+margin:0px;
+padding:0px;
+height:960px;
+width:744px;
+}
+table{
+	border		:none;
+	margin		:0px;
+	border-collapse	: collapse;
+	table-layout: fixed;
+}
+
+
+/* PAGE 1: ROW 1 */
+#Pr{
+
+	margin		:;
+	padding		:;
+	height		:94px;
+	width		:96px;
+	vertical-align	:top;
+}
+
+#PrDesc{
+
+	border-left: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:46px;
+	width		:336px;
+	vertical-align	:top;
+}
+
+#PrNum{
+
+	border-left: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:46px;
+	
+	vertical-align	:top;
+}
+
+
+/* Page 1: Row 2 */  
+#reqDt{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:46px;
+	width		:336px;
+	vertical-align	:top;
+}
+
+
+
+
+#Dpas{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:46px;
+	
+	vertical-align	:top;
+}
+
+
+#Prio{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:46px;
+	
+	vertical-align	:top;
+}
+/* Page 1: Row 3 */
+#ReqOff{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:118px;
+	width		:384;
+	vertical-align:top;
+}
+
+#ReqOff .head4{
+vertical-align:bottom;
+}
+
+#actType{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:118px;
+	width		:360px;
+	vertical-align	:top;
+}
+
+/* Page 1: Row 4 */
+#issOff{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:94px;
+	width		:384px;
+	vertical-align	:top;
+}
+
+#issOff .head4{
+vertical-align:bottom;
+}
+
+#shipTo{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:94px;
+	width		:360px;
+	vertical-align	:top;
+}
+
+/* Page 1: Row 5 */
+#supply{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:22px;
+	width		:384px;
+	vertical-align	:top;
+}
+
+#comments{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:238px;
+	width		:360px;
+	vertical-align	:top;
+}
+
+/* Page 1: Row 5.1 */
+
+#vendors{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:214px;
+	width		:384px;
+	vertical-align	:top;
+}
+
+/* Page 1: Row 6 */
+#LineSum{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:46px;
+	width		:120px;
+	vertical-align	:top;
+}
+
+
+#totCost{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:46px;
+
+	vertical-align	:top;
+}
+
+#SeeAtt{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+
+	margin		:;
+	height		:46px;
+	width		:360px;
+	line-height: 46px;
+	vertical-align	:middle;
+}
+/* Page 1: Row 7 */
+#ContDat{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	width		:384;
+	vertical-align	:top;
+}
+
+#ContOff{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	
+	margin		:;
+	padding		:;
+	height		:290px;
+	width		:360px;
+	vertical-align	:top;
+}
+
+#ContInf{
+	border-top: 1px solid black;
+	
+	margin		:;
+	padding		:;
+	width		:384px;
+	vertical-align	:top;
+}
+/* Page 1: Row 8 */
+#PrefProg{
+	border-top: 1px solid black;
+	
+	
+	margin		:;
+	padding		:;
+	height: 39px;
+	width		:384px;
+	vertical-align	:top;
+}
+
+#seeKo{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	
+	
+	margin		:;
+	padding		:;
+	height: 39px;
+	width		:360px;
+	vertical-align	:top;
+}
+
+
+
+
+
+/*---PAGE 2---------table Data fields-------------------*/
+
+/* Page 2: Row 1 */
+#conDat{
+
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:210px;
+	vertical-align	:top;
+}
+
+
+#PrRef{
+	
+	border-left: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:432px;
+	vertical-align	:top;
+}
+#Page2{
+	
+	border-left: 1px solid black;
+	
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:92px;
+	vertical-align	:top;
+}
+/* Page 2: Row 2 */
+#KoNotes{
+	border-top: 1px solid black;
+
+	margin		:;
+	padding		:;
+	height		:576px;
+	width		:742px;
+	vertical-align	:top;
+}
+/* Page 2: Row 3 */
+#PRMods{
+	border-top: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:96px;
+	width		:742px;
+	vertical-align	:top;
+}
+/* Page 2: Row 4 */
+#TaskOrd{
+	border-top: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:24px;
+	width		:742px;
+	vertical-align	:top;
+}
+/* page 2: Row 5 */
+
+#poc{
+	border-top: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:126px;
+	width		:381px;
+	vertical-align	:top;
+}
+
+#propOff{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:126px;
+	width		:358px;
+	vertical-align	:top;
+}
+/* Page 2: Row 6 */
+#jaNum{
+	border-top: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:74px;
+	width		:381px;
+	vertical-align	:top;
+}
+
+#reqSec{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	
+	margin		:;
+	padding		:;
+	height		:74px;
+	width		:358px;
+	vertical-align	:top;
+}
+#clearance td{
+	border		:none;
+	vertical-align	:top;
+}
+
+
+/* ---------Table 3 ------------------------ */
+/* Table 3: Row 2 */
+#offeror{
+	border-top: 1px solid black;
+	
+	
+	margin		:;
+	padding		:;
+	height		:24px;
+	width		:740px;
+	vertical-align	:top;
+}
+/* Table 3: Row 3 */
+#clin{
+	border-top: 1px solid black;
+	
+	border-bottom: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:90px;
+	vertical-align	:top;
+}
+
+#desc{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+		border-bottom: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:230px;
+	vertical-align	:top;
+}
+
+#quant{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;	
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:90px;
+	vertical-align	:top;
+}
+
+#uoi{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:90px;
+	vertical-align	:top;
+}
+
+#price{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:115px;
+	vertical-align	:top;
+}
+
+#amount{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin		:;
+	padding		:;
+	height		:48px;
+	width		:110px;
+	vertical-align	:top;
+}
+/* Page 3: row 4 */
+#clinData{
+	margin		:;
+	padding		:;
+	height		:828px;
+	width		:740px;
+	vertical-align	:top;
+}
+
+#clinData2{
+
+
+	margin:;
+	padding:;
+	height:387px;
+	width: 740px;
+	vertical-align:top;
+}
+
+
+
+/* -----Table Container ----- */
+.listcontainer
+	{
+	margin-top	: 0px;
+	padding		: 0px;
+	min-height	: 94%;
+	overflow	: auto;
+	width		: 800px;
+	margin-left	: 60px;
+	color		: navy;
+}
+
+.listcontainer table
+	{
+	border-top: 3px solid navy;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid navy;
+	table-layout: auto;
+	}
+	
+	
+.listcontainer th
+	{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid navy;
+	text-align: center;
+	background-color: white;
+	font-style: bold;
+	font-size: 18px;
+	}
+	
+.listcontainer td
+	{
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid navy;
+	border-bottom: 1px solid navy;
+	font-size: 15px;
+	}
+
+
+.listcontainer td a:hover{color: navy;}
+.listcontainer td a:visited{color: black;}
+.listcontainer td a:link{color:blue;}
+.listcontainer td a:active{color:red;}
+
+
+/* -----Page Footer ------- */
+.footer{
+	margin-top	: 10px;
+	height		: 100px;
+	width		: 850px;
+	color		: navy;
+	padding		: 2px;
+	text-align: center;
+
+	}
+
+
+
+
+
+
+

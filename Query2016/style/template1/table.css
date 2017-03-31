@@ -1,0 +1,267 @@
+.paneT{
+	margin-top:135px;
+	margin-left:30px;
+	height:55px;
+	width:800px;
+	position: absolute;
+	text-align: center;
+	}
+	
+.paneL{
+	margin-top:195px;
+	margin-left:30px;
+	margin-bottom:10px;
+	height: 500px;
+	width: 390px;
+	position: absolute;
+}
+
+.paneL a{
+	text-decoration: none;
+}
+.paneR{
+	margin-top:195px;
+	margin-left:440px;
+	height: 500px;
+	width: 390px;
+	position: absolute;
+}
+.paneLI{
+	height: 500px;
+	width: 800px;
+	margin-left:30px;
+	position:absolute;
+	
+}
+.addInfo th{
+	text-align:center;
+	border: 1px solid navy;
+}
+.addInfo td{
+	text-align:center;
+	border:1px solid navy;
+
+}
+
+table{
+border-collapse:collapse;
+width:100%;
+}
+
+th{
+padding-left:5px;
+margin:0;
+border-left:none;
+border-right: none;
+border-top: 1px solid navy;
+border-bottom: none;
+vertical-align:top;
+text-align:right;
+color: navy;
+background-color:#E6E6E6;
+font: bold 9pt Arial, Helvetica, sans-serif;
+
+}
+
+.bottomR{
+vertical-align:bottom;
+}
+
+
+
+td{
+margin:0;
+padding-left:8px;
+vertical-align:top;
+background-color: white;
+color: navy;
+height
+text-overflow:ellipsis;
+border:none;
+border-top: 1px solid navy;
+font:8pt Arial, Helvetica, sans-serif;
+
+}
+
+.title{		
+
+}
+.data{
+padding: 0px;
+}	
+.tHead
+{
+height:10px;
+}
+.vbCrLf
+{
+padding-top:0px;
+width:550px;
+margin-left:10px;
+}
+.PRl
+{
+padding-left:15px;
+text-align:left;
+}
+
+.boxFooter{
+height: 112px;
+width: 870px;
+margin-top: 0px;
+margin-left: 25px;
+border: none;
+color: navy;
+padding: 2px;
+text-align: center;
+text-decoration:none;
+position:absolute;
+
+}
+.box
+{
+margin-left: 2px;
+margin-right:2px;
+height: 110px;
+width: 197px;
+float: left;
+background-color:#E6E6E6;
+
+}
+
+.boxTop{
+height: 15px;
+width: 100%;
+color:navy;
+background-color:#E6E6E6;
+border-left:none;
+border-right: none;
+border-top: 1px solid navy;
+border-bottom: none;
+vertical-align:top;
+font: bold 9pt Arial, Helvetica, sans-serif;
+
+text-align:center;
+}
+.radio{
+height: 15px;
+padding-top: 2px;
+vertical-align: center;
+text-align: right;
+}
+
+.boxInt{
+margin: 0px;
+height:85px;
+width: 100%;
+overflow-x: hidden;
+overflow-y: scroll;
+background-color: White;
+
+}
+
+
+
+.boxInt a{
+text-decoration: none;
+
+}
+
+.boxSideBar
+{
+height: 430px;
+width: 167px;
+}
+
+
+.return{
+text-decoration:none;
+font:bold 9pt Arial, Helvetica, sans-serif
+}
+
+
+.notes{
+
+margin-right:2px;
+height: 120px;
+width: 100%;
+float: left;
+background-color:#E6E6E6;
+}
+
+.notesTop{
+height: 20px;
+width: 100%;
+
+background-color:#E6E6E6;
+border-left:none;
+border-right: none;
+border-bottom: none;
+vertical-align:top;
+
+border-top: 2px solid navy;
+
+
+
+}
+
+.notesInt{
+margin-left: 10px;
+height:85px;
+width:94%;
+background-color: #F5F6CE;
+overflow-x: hidden;
+overflow-y: scroll;
+font: bold 9pt Arial, Helvetica, sans-serif;
+text-align: left;
+padding-left: 5px;
+padding-top: 5px;
+
+}
+
+.notesSideBar
+{
+height: 430px;
+width: 167px;
+}
+.noteselectL{
+margin-left: 70px;
+float: left;
+color:#686868;
+font bold 12pt;
+}
+.noteselectL:hover{
+cursor: pointer;
+color:#2E64FE;
+}
+
+.noteselectR{
+float: left;
+color: #686868;
+}
+
+.noteselectR:hover{
+cursor: pointer;
+color:#2E64FE;
+}
+
+.noteHead{
+font: bold 12pt Arial, Helvetica, sans-serif;
+
+font-style: italic;
+color:navy;
+padding-left: 15px;
+padding-right: 15px;
+float: left;
+
+
+}
+.noteColor{
+color: red;
+}
+
+.tableTag{
+	color: navy;
+	font: bold 10pt Arial, Helvetica, sans-serif;	
+}
+

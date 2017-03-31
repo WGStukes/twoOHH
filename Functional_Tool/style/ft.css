@@ -1,0 +1,252 @@
+body{
+background: url("img/steel.jpg");
+	font-family:sans-serif; 
+	font-size:9pt; 
+	height: 100%;
+}
+
+.wrapper{
+	margin: 0 auto;
+	background-color: white;
+	height: 100%;
+	width: 800px;
+/*	border-right: 2px solid #848484;
+	border-bottom: 2px solid #848484;
+	border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+*/
+	padding-top: 10px;
+	padding-bottom: 25px; 
+	color: #003366; 
+	border: 1px solid grey;
+	
+   	box-shadow:5px 5px 3px #888888;
+}	
+
+.header{
+
+}
+
+.banner{
+	margin-top:4px;
+	background: url("img/nawc_logo.gif") no-repeat top center;
+	height:50px;	
+}
+.navy{
+	margin:0 auto;
+	background-color: navy;
+	color: white;
+	height:15px;
+	width:788px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.title{
+	margin-top:4px;
+	text-align:center;
+	color:navy;
+}
+
+.close{
+	margin-top: 20px;
+	text-align:center;
+}
+
+
+fieldset{
+	margin: 0 auto;
+	width:80%;
+	height: 100%;
+}
+
+#fs2{
+	min-height:200px;
+}
+fieldset legend{
+	color: navy;
+	font-size: 11pt;
+}
+
+.chgTxt{
+	padding-top: 3px;
+	width: 48%;
+	margin: 3px;
+	float: left;
+	
+	
+}
+.unrel{
+	width: 48%;
+	margin: 3px;
+	float: left;
+
+}
+.unrel input{
+	vertical-align: top;
+}
+
+.unrelBtn{
+	margin: 3px;
+}
+
+.eda{
+	margin: 3px;
+	padding-top:7px;
+}
+.txt{
+	float: left;
+	text-align:right;
+	margin-top: 10px;
+	margin-right:15px;
+	margin-left: 10px;
+}
+.apld{
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	
+}
+
+.effc{
+	
+	float left;
+	margin-top: 10px;
+
+}
+
+#fs2a{	
+}
+
+.descriptionOld{
+	float:left;
+	margin-left: 6px;
+	margin-top: 10px;
+	
+}
+.descriptionNew{
+	float:left;
+	margin-left: 6px;
+	margin-top: 10px;
+}
+
+.sgntrOld{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+	
+}
+.sgntrNew{
+	float: left;
+	margin-top: 10px;
+	width:48%;
+	text-align: center;
+}
+
+.sgntrNew select{
+	width: 80%;
+}
+.crtrOld{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+}
+.crtrNew{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+}
+
+.crtrNew select{
+	width: 80%;
+}
+
+.reqOld{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+}
+.reqNew{
+	float left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+}
+.reqNew select{
+	width: 80%;	
+}
+
+
+.submit{
+	text-align: center;
+	clear: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.cntr{
+	padding-left: 10px;
+	width: 100%;
+}
+
+
+.paltOld{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+}
+
+.paltNew{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+	text-align: center;
+}
+
+.paltNew select{
+	width: 80%;
+}
+
+.left{
+	text-align: left;
+}
+
+.txtArea{
+	border: 1px solid #585858;
+	width: 302px;
+	height: 41px;
+	padding: 4px;
+	color: black;
+}
+
+.release{
+	
+	margin-left: 12px;
+	margin-bottom: 12px;
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+.orig{
+	
+	margin-left: 12px;
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+.orig table{
+	
+}
+
+.orig th{
+	text-align: right;
+}
+.tHeader{
+	text-align: center;
+}
+

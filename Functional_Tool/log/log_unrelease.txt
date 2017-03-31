@@ -1,0 +1,37 @@
+****************************************************************************************
+FUNCTIONAL TOOL UNRELEASE LOG:
+this log tracks document unrelease by the object ID. 
+IF the document number is an award, the following tables are modified:
+----------------------------------------------------------------------------------------
+Table: dsk_obj
+fields:	applied = Null
+	ur_icon_id = Null
+	stmp_id = Null
+----------------------------------------------------------------------------------------
+Table: proc_object
+fields:	current_fl = 0
+	apld_dt = Null
+	apld_fl = Null
+----------------------------------------------------------------------------------------
+Table: award
+Fields:	awd_rel_dt = Null
+----------------------------------------------------------------------------------------
+Table: internal
+	ko_cntct_id = Null
+	ko_addr_id = Null
+	ko_org_id = Null
+----------------------------------------------------------------------------------------
+IF the document is a modification the following fields are also altered based on parent_id:
+dsk_obj.ur_icon_id = 4
+proc_object.current_fl = 1
+----------------------------------------------------------------------------------------
+Record of document information before un-release: the following is to be used for re-release	
+****************************************************************************************
+objId, Applied, ur_icon_id, stmp_id, current_fl, apld_dt, apld_fl, awd_rel_dt, cntct_id, addr_id, org_id, parentIconId, Parent CurrentFl
+****************************************************************************************
+739324, R, , 1, 0, 7/28/2008 1:03:00 PM, 1, 7/28/2008 1:03:00 PM, 40593, 40991, 26632, , , 10/6/2015 7:13:00 PM
+739324, R, , 1, 0, 7/28/2008 1:03:00 PM, 1, 7/28/2008 1:03:00 PM, 40593, 40991, 26632, , , 10/6/2015 7:51:14 PM
+739324, R, , 1, 0, 7/28/2008 1:03:00 PM, 1, 7/28/2008 1:03:00 PM, 40593, 40991, 26632, , , 10/7/2015 11:30:07 AM
+739324, R, , 1, 0, 7/28/2008 1:03:00 PM, 1, 7/28/2008 1:03:00 PM, 40593, 40991, 26632, , , 10/7/2015 11:47:14 AM
+
+739324, R, , 1, 0, 7/28/2008 1:03:00 PM, 1, 7/28/2008 1:03:00 PM, 40593, 40991, 26632, , , 10/7/2015 12:18:11 PM

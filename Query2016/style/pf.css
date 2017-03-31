@@ -1,0 +1,188 @@
+body{
+	text-decoration: none;
+}
+fieldset{
+	width: 90%;
+}
+
+
+/*----------------Documents List Boxes----------------------*/
+.boxContainer{
+	height: 130px;
+	width: 91%;
+	margin: 0 auto;
+	
+}
+
+.box{
+	float:left;
+	height: 120px;
+	width: 176px;
+	margin-right:6px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow:2px 2px 3px #888888;
+	border: 1px solid grey;
+
+}
+
+.boxHead{
+	background-color: grey;
+	color: white;
+	height: 18px;
+	text-align: center;
+	
+}
+.boxInt{
+	height:90%;
+	width: 95%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
+	background-color: #E3E3E3;
+	margin:0 auto;
+	padding-left: 10px;
+	
+}
+
+
+
+/*----------------Panel Tables-----------------------------*/
+.contain{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.contain table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid grey;
+	width:90%;
+	
+}
+.contain table th{
+	background-color: grey;
+	color: white;
+	border: 1px solid black;
+}
+
+.contain table tr{
+	background-color: #E3E3E3;
+	border: 1px solid black;
+}
+.contain table td{
+	padding-left: 5px;
+}
+.paneT{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.paneT a{
+	text-decoration: none;
+}
+
+.paneL{
+	float: left;
+	width: 49%;
+}
+.paneL table{
+	width: 90%;
+	clear: right;
+	margin-right: 0px;
+}
+.paneR{
+	float: right;
+	width: 49%;
+}
+.paneR table{
+
+	width: 90%;
+	float: left;
+
+}
+.notes{
+	width: 89.5%;
+	float: right;
+	padding-bottom: 15px;
+	background-color:  #BCBCBC;
+	border: 1px solid black;
+}
+
+.notesTop{
+	margin:0 auto;
+	text-align: center;
+	width: 90%;
+	color: navy;
+}
+.notesInt{
+	background-color: #FFFBB5;
+	margin:0 auto;
+	width: 90%;
+	height:90px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	overflow: auto;
+
+	box-shadow:3px 3px 4px #888888;
+} 
+/*--------------------------stamp styles-------------------------------*/
+
+.stampR{
+	height: 160px;
+	width: 190px;
+	background-image:url(img/released.png);
+	position: absolute;
+	z-index: 4;
+	margin-left: 300px;
+	margin-top: 125px;
+}
+
+.stampR:hover{
+	cursor: pointer;
+}
+
+.stampA{
+	height: 160px;
+	width: 190px;
+	background-image:url(img/Approved.png);
+	position: absolute;
+	z-index: 4;
+	margin-left: 300px;
+	margin-top: 125px;
+}
+
+.stampA:hover{
+	cursor: pointer;
+}
+.stampC{
+	height:160px;
+	width:210px;
+	background-image:url(img/cancelled.png);
+	position: absolute;	
+	z-index: 4;
+	margin-left: 300px;
+	margin-top: 125px;
+}
+
+.stampC:hover{
+	cursor: pointer;
+}
+.stampCO{
+	height:160px;
+	width:200px;
+	background-image:url(img/closedout.png);
+	position: absolute;	
+	z-index: 4;
+	margin-left: 300px;
+	margin-top: 125px;
+}
+
+
+/* misc Styles */
+.return{
+	padding-left: 4em;
+}

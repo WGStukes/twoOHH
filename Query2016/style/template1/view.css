@@ -1,0 +1,386 @@
+/*	
+	This Document Contains the Main css for PR Print 	
+	view.css
+	Jeremy McClellan
+	New Directions Technologies
+	9/3/2014
+*/
+
+
+
+@media screen{
+html, body{
+margin: 0;
+padding: 0;
+background-image:url(img/steel.jpg);
+background-repeat:repeat;
+}
+
+
+.shorten{
+width:85%;
+}
+/* --------------- Fonts for Headings within TD fields -------- */
+.head1{
+padding-left: 2px;
+font: bold 15pt  Arial, Helvetica, sans-serif
+}
+
+
+.head2{
+padding-left: 3px;
+font: bold 8pt Arial, Helvetica, sans-serif
+}
+
+
+
+.head3{
+padding-left:5px;
+margin:0;
+vertical-align:top;
+text-align:left;
+font: bold 12pt Arial, Helvetica, sans-serif
+}
+
+
+
+.head4{
+margin:0;
+padding-left:8px;
+vertical-align:top;
+font:          7pt Arial, Helvetica, sans-serif
+height
+text-overflow:ellipsis;
+border:none;
+}
+
+a:link {color: navy;}      /* unvisited link */
+a:visited {color:navy;}  /* visited link */
+a:hover {color:#00FF00;}  /* mouse over link */
+a:active {color:#2E64FE;}  /* selected link */ 
+/* ---------Wrapper Container----------- */
+
+.wrapper
+{
+	margin		: 0px;
+	border		: none;
+	height		: 100%;
+	min-height: 1000px;
+	padding		: 0px;
+}
+
+
+.container
+{
+
+height: 100%;
+width: 850px;
+}
+
+
+/* -----Header container----- */
+.header
+{
+margin-top:30px;
+min-width: 850px;
+width: 100%;
+}
+
+
+/* ----PR Print Title----- */
+.textl
+{
+	color		: navy;
+	font-size	: 50px;
+	font-weight	: bold;
+	font-family	: arial,gadget,sans-serif;
+	z-index		: 5;
+	margin-top: 40px;
+	margin-left: 250px;
+	margin-bottom: 40px;
+
+}
+
+/* ----Standard Procurement System----- */
+.captchl
+	{
+	
+	font-size	:18px;
+	color		:white;
+	z-index		:10;
+	font-weight	:bold;
+	font-family	:arial,gadget,sans-serif;
+	margin-left: 350px;
+	margin-top: -50px;
+	margin-bottom: 40px;
+	
+	}
+
+
+/* ----Database Connection Message----- */
+.captchr
+	{
+	float: right;
+	font-size	: 12px;
+	color		: navy;
+	font-weight	: bold;
+	font-style	: italic;
+	z-index		: 10;
+	font-family	: arial,gadget,sans-serif;	
+	margin-right: 10px;
+	line-height: 27px;
+	vertical-align:  middle;
+
+	}
+
+	
+
+/* ----Menu Bar to contain navigation links -----*/
+.menubar
+	{
+	height		: 27px;
+	width: 100%;
+	min-width: 600px;
+	background-color: white;
+	color: navy;
+	font-family: bold arial,gadget,sans-serif;
+	border-top	: 3px solid navy;
+	border-bottom 	: 1px solid navy;
+	margin-left	: 2px;
+	margin-right	: 2px;
+	position:fixed;
+	z-index: 2;
+	}
+	
+	
+	
+/* ----Navigation Bar----- */
+#navbar
+	{
+	height		: 100%;
+	position:fixed;
+	z-index		: 3;
+	margin-left	: 0px;	
+	min-width:  350px;
+
+	}
+	
+	
+#navbar li 
+	{
+	list-style	: none;
+	margin-left: 12px;
+	float		: left;
+	position	: relative;
+	font-style	: italic;
+	}
+
+#navbar li a 
+	{
+	display		: block;
+	color		: navy;
+	text-decoration	: none;
+	font-family	: arial,gadget,sans-serif;
+	font-size	: 15px;
+	font-weight	: bold;
+	text-align	: center;
+	line-height	: 25px;
+	vertical-align	: middle;
+	position	: relative;
+	}
+
+/* ----subnav menu----*/
+
+#navbar li ul
+	{
+	display		:none;/*hide the subnav menu*/
+	background-color:navy;	
+	}
+
+
+/* ----style the hover----- */
+#navbar li:hover
+	{ 
+	border		: 1px inset white ;
+	background-color: #F2F2F2;
+	}
+	
+
+#navbar li a:hover{color:#2E64FE;}
+	
+#navbar li:hover ul 
+	{
+	display		: block;
+	margin		: 0;
+	}
+
+#navbar li:hover li 
+	{
+	margin-top	: 0;
+	float		: left;
+	width		: 100%;
+	}
+
+#navbar li:hover li a 
+	{
+	font-size: 12px;
+	text-align:left;
+	}
+	
+	
+#navbar li a:hover 
+	{
+	}
+	
+	/* -----Form Container PR_Print.asp ---- */	
+.field
+	{
+	text-align: center;
+	color:navy;
+	
+	width:100%;
+	min-height: 650px;
+
+	}
+.button{
+	border: 1px solid pink;
+	width: 40px;
+}
+.navy{
+
+	color: navy;
+	max-width: 850px;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+}
+.colorRed{
+	color: red;
+	max-width: 850px;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+}
+
+.formField{
+	height: 27px;
+	width	: 850px;
+	background-color: ;
+	color: navy;
+	float: left;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+
+	}
+#Location{
+text-align: center;
+border-top: 2px solid navy;
+font: bold 12pt Arial, Helvetica, sans-serif;
+font-style: italic;
+
+vertical-align:middle;
+}
+
+#PrPanel{
+text-align: center;
+border-top: 2px solid navy;
+font: bold 12pt Arial, Helvetica, sans-serif;
+font-style: italic;
+vertical-align:middle;
+}
+
+#WkldPanel{
+text-align: center;
+border-top: 2px solid navy;
+font: bold 12pt Arial, Helvetica, sans-serif;
+font-style: italic;
+vertical-align:middle;
+}
+
+.WkldPanel td{
+text-decoration:none;
+}
+
+#WkldHist{
+text-align: center;
+border-top: 2px solid navy;
+font: bold 12pt Arial, Helvetica, sans-serif;
+font-style: italic;
+vertical-align:middle;
+}
+.footer{
+	margin-top	: 10px;
+	height		: 100px;
+	width		: 850px;
+	color		: navy;
+	padding		: 2px;
+	text-align: center;
+	float:bottom;
+	position: relative;
+
+	}
+
+.stampR{
+	height: 160px;
+	width: 190px;
+	background-image:url(img/released.png);
+	position: absolute;
+	z-index: 4;
+	margin-left: 325px;
+	margin-top: 175px;
+	
+}
+
+.stampR:hover{
+	cursor: pointer;
+}
+
+.stampA{
+	height: 160px;
+	width: 190px;
+	background-image:url(img/Approved.png);
+	position: absolute;
+	z-index: 4;
+	margin-left: 325px;
+	margin-top: 175px;
+}
+
+.stampA:hover{
+	cursor: pointer;
+}
+.stampC{
+	height:160px;
+	width:210px;
+	background-image:url(img/cancelled.png);
+	position: absolute;
+	z-index: 4;
+	margin-left: 325px;
+	margin-top: 175px;
+}
+
+.stampC:hover{
+	cursor: pointer;
+}
+.stampCO{
+	height:160px;
+	width:200px;
+	background-image:url(img/closedout.png);
+	position: absolute;
+	z-index: 4;
+	margin-left: 325px;
+	margin-top: 175px;
+}
+
+.dataContainer{
+
+position:absolute;
+min-height: 600px;
+height: 100%;
+width: 855px;
+border:1px solid red;
+}
+
+.parent:hover
+{
+	cursor: pointer;
+}
+.exTxt{
+border: 1px solid navy;
+visibility: hidden;
+}
+

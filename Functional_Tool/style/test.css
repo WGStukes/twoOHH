@@ -1,0 +1,130 @@
+body {
+background: url("img/steel.jpg");
+}
+.banner{
+	margin-top: 10px;
+	height: 60px;
+	width: 100%;
+	background: url("img/nawc_logo.gif") no-repeat  center;
+	background-color: white;
+	max-width: 1002px;
+	box-shadow: 3px 3px 3px #888888;
+	border-radius: 4px;
+	z-index: 3;
+}
+
+.wrapper2{
+ margin: 0 auto;
+ width: 1020px;
+}
+
+/* Navigation Menu */
+
+.tabs ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    box-shadow:3px 3px 3px #888888;  
+    border-radius: 4px;
+    position: fixed;
+    height: 500px;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+
+li a:focus, a:active{
+    background-color: navy;
+
+    color: white;
+
+    box-shadow:3px 3px 3px #888888;
+    
+}
+
+
+li a:hover{
+    background-color:#58ACFA;
+}
+
+/* Main Body */
+.formField{
+	float: left;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 3px 3px 3px #888888;
+	margin-top:16px;
+	margin-left: 203px;
+	width: 100%;
+	max-width: 800px;
+	height: 242px;
+	text-align: center;
+	
+}
+
+.formField fieldset{
+	margin:10px;
+}
+
+.pageTitle{
+	margin-top: 15px;
+	font: 35px bold italic Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.tools{
+	float: left;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow:3px 3px 3px #888888;
+	margin-top: 16px;
+	margin-left: 203px;
+	width: 100%;
+	max-width:800px;
+	height: 242px;
+}
+
+
+
+.tools fieldset{
+	margin: 10px;
+}
+
+
+fieldset .chgRsn{
+	text-align: center;
+}
+
+fieldset legend{
+	font: 20px arial, sans-serif;
+	color: blue;
+}
+#unr{display: none;}
+#dte{display: none;}
+#wkl{display: none;}
+#des{display: none;}
+#cre{display: none;}
+#pal{display: none;}
+#req{display: none;}
+#sig{display: none;}
+
+
+
+
+/*-----------Fields-------------------------------------------------*/
+
+.chgRsn{}
+.chgText{float: left;}
+.unrBtn{
+	float: left;
+}
